@@ -119,7 +119,7 @@
           </div>
         </div>
         <div class="block mb-2">
-          <div class="w-full lg:max-w-full lg:flex mb-4">
+          <div class="w-full lg:max-w-full lg:flex mb-4" v-for="i in 5" :key="i">
             <div
               class="w-full border border-gray-400 lg:border-gray-400 bg-white rounded p-8 flex flex-col justify-between leading-normal"
             >
